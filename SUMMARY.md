@@ -35,6 +35,11 @@
   * [Pesquisa de Elemento em um Array](capitulo-1-basic/capitulo-1-exercicios/pesquisa-de-elemento-em-um-array.md)
   * [Manipulação de Arrays - Inserindo e Exibindo Valores](capitulo-1-basic/capitulo-1-exercicios/manipulacao-de-arrays-inserindo-e-exibindo-valores.md)
 
+***
+
+* [Capítulo 1: RE](capitulo-1-re/README.md)
+  * [Operações Matemáticas Simples](capitulo-1-re/operacoes-matematicas-simples.md)
+
 ## Capítulo 2: Control Flow
 
 * [Estruturas condicionais](capitulo-2-control-flow/estruturas-condicionais/README.md)
