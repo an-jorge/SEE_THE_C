@@ -39,6 +39,7 @@
 
 * [Capítulo 1: RE](capitulo-1-re/README.md)
   * [Operações Matemáticas Simples](capitulo-1-re/operacoes-matematicas-simples.md)
+  * [Cálculo de Média Aritmética](capitulo-1-re/calculo-de-media-aritmetica.md)
 
 ## Capítulo 2: Control Flow
 
