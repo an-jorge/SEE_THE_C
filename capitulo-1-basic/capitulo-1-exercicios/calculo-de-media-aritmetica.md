@@ -54,3 +54,4 @@ layout:
 
 ***
 
+<a href="../../capitulo-1-re/calculo-de-media-aritmetica.md" class="button primary">RE1</a>
