@@ -4,6 +4,7 @@ icon: '1'
 
 # Cálculo de Média Aritmética
 
+{% code title="main.c" overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -23,6 +24,7 @@ int main()
     return 0;
 }
 ```
+{% endcode %}
 
 {% code title="TERMINAL" overflow="wrap" %}
 ```
