@@ -41,6 +41,7 @@
   * [Operações Matemáticas Simples](capitulo-1-re/operacoes-matematicas-simples.md)
   * [Cálculo de Média Aritmética](capitulo-1-re/calculo-de-media-aritmetica.md)
   * [Conversão de Temperatura](capitulo-1-re/conversao-de-temperatura.md)
+  * [Entrada e Saída de dados Simples](capitulo-1-re/entrada-e-saida-de-dados-simples.md)
 
 ## Capítulo 2: Control Flow
 
