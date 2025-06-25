@@ -85,3 +85,4 @@ Percentual de votos válidos: 85.0%
 
 ***
 
+<a href="../../capitulo-1-re/calculo-de-percentual-de-votos-em-uma-eleicao-municipal.md" class="button secondary">RE4</a>

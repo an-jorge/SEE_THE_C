@@ -54,4 +54,4 @@ layout:
 
 ***
 
-<a href="../../capitulo-1-re/entrada-e-saida-de-dados-simples.md" class="button secondary">RE3</a>
+<a href="../../capitulo-1-re/calculo-de-percentual-de-votos-em-uma-eleicao-municipal.md" class="button secondary">RE4</a>
