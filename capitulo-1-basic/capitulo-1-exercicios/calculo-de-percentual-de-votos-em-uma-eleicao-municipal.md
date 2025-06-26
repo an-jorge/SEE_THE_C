@@ -31,21 +31,24 @@ layout:
 
 ### **Instruções:**
 
-1. **Requisitos do Programa:**
-   * O programa deve solicitar ao usuário:
-   * O número total de eleitores no município.
-   * O número de votos brancos.
-   * O número de votos nulos.
-   * O número de votos válidos.
-   * O programa deve calcular o percentual que cada tipo de voto (branco, nulo e válido) representa em relação ao total de eleitores.
-2. **Fórmulas sugeridas:**
+1.  **Requisitos do Programa:**
+
+
+
+O programa deve solicitar ao usuário:
+
+* O número total de eleitores no município.
+* O número de votos brancos.
+* O número de votos nulos.
+* O número de votos válidos.
+* O programa deve calcular o percentual que cada tipo de voto (branco, nulo e válido) representa em relação ao total de eleitores.
+
+1. **Fórmulas sugeridas:**
    * Percentual de votos brancos: (votos brancos/total de eleitores)×100
    * Percentual de votos nulos: (votos nulos/total de eleitores)×100
    * Percentual de votos válidos: (votos validos/total de eleitores)×100
-3. **Tarefa:**
-   1. Implemente o código em seu ambiente de desenvolvimento.
-   2. Solicite ao usuário que insira os dados necessários.
-   3. Calcule os percentuais para cada tipo de voto e exiba o resultado.
+2. **Tarefa:**
+   1. Solicite ao usuário que insira os dados necessários.
 
 ### **Exemplo de Saída Esperada:**
 
