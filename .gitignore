@@ -10,3 +10,4 @@
 main.exe
 .build/Debug/main.o
 2.1-les_Hello/build/Debug/main.o
+.idea/
