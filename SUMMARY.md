@@ -43,6 +43,7 @@
   * [Conversão de Temperatura](capitulo-1-re/conversao-de-temperatura.md)
   * [Entrada e Saída de dados Simples](capitulo-1-re/entrada-e-saida-de-dados-simples.md)
   * [Cálculo de Percentual de Votos em uma Eleição Municipal](capitulo-1-re/calculo-de-percentual-de-votos-em-uma-eleicao-municipal.md)
+  * [Cálculo de Novo Salário com Reajuste](capitulo-1-re/calculo-de-novo-salario-com-reajuste.md)
 
 ## Capítulo 2: Control Flow
 

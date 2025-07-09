@@ -1,16 +1,5 @@
 ---
 icon: '5'
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Cálculo de Novo Salário com Reajuste
@@ -73,9 +62,9 @@ O novo salário é: 3150.00
 
 
 
+***
 
-
-
+<a href="../../capitulo-1-re/calculo-de-novo-salario-com-reajuste.md" class="button primary">RE5</a>
 
 
 
