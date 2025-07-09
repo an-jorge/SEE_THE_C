@@ -19,7 +19,7 @@ int main() {
 
     if (setlocale(LC_ALL, "pt_PT.utf8") == NULL)
     {
-        printf("Localização pt_PT indispónivel\n");
+        printf("Localização pt_PT indisponivel\n");
         printf(
             "acentuação poderá não ser a correta significa que a forma como as palavras foram acentuadas na frase pode estar errada. "
             "Isso pode acontecer devido à aplicação incorreta das regras de acentuação gráfica da língua portuguesa. \n");
