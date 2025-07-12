@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Ciclo de Desenvolvimento
 
 Para desenvolver um aplicativo, um software desktop ou um website começa com o que chamamos de algoritmo expresso em uma linguagem de programação. Tudo que você já viu ou vai ver, desde a máquina de café a foguetes existe uma lógica e um algoritmo. &#x20;

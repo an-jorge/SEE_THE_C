@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Operadores relacionais e lógicos
 
 Os operadores de relacionais são usados para comparar valores e produzir um resultado booleano (verdadeiro ou falso) com base na comparação. Aqui estão os operadores de comparação mais comuns em C:

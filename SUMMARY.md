@@ -48,8 +48,9 @@
 
 ## Capítulo 2: Control Flow
 
-* [Estruturas condicionais](capitulo-2-control-flow/estruturas-condicionais/README.md)
-  * [Entender loops](capitulo-2-control-flow/estruturas-condicionais/entender-loops.md)
+* [Fluxo de Controle](capitulo-2-control-flow/fluxo-de-controle/README.md)
+  * [Estruturas condicionais](capitulo-2-control-flow/fluxo-de-controle/estruturas-condicionais.md)
+  * [Entender loops](capitulo-2-control-flow/fluxo-de-controle/entender-loops.md)
 
 ***
 

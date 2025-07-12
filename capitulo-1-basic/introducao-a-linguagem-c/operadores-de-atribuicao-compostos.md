@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Operadores de atribuição Compostos
 
 O operador de atribuição básico é o sinal de igual (`=`), mas existem também operadores compostos de atribuição que facilitam a manipulação e atualização do valor das variáveis, melhoram **a leitura do código**, deixa o **código** mais **limpo**, e com **menos repetições** Os operadores de atribuição são usados para atribuir valores a variáveis, aqui estão os operadores de atribuição mais comuns em C:

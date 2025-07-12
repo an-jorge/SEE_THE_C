@@ -1,17 +1,6 @@
 ---
-icon: '2'
 hidden: true
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+icon: '2'
 ---
 
 # Leitura e Impressão de Elementos de um Array

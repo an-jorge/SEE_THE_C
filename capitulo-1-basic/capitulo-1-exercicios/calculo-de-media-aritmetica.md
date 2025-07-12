@@ -1,16 +1,5 @@
 ---
 icon: '1'
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Cálculo de Média Aritmética
