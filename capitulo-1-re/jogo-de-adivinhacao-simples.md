@@ -20,8 +20,8 @@ int main() {
 
 if (setlocale(LC_ALL, "pt_PT.utf8") == NULL)
 {
-    printf(" \t ⚠️ Idioma PT indisponível.\n");
-    printf(" \t Aviso: O idioma do sistema não está configurado como português. \n"
+    printf(" \t Idioma PT indisponível.\n");
+    printf(" \t Aviso: O idioma do sistema não está configurado como português.\n"
            " \t Por essa razão, a acentuação pode estar incorreta.\n\n");
 }
 
