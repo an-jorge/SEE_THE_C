@@ -23,7 +23,7 @@ if (setlocale(LC_ALL, "pt_PT.utf8") == NULL)
     printf(" \t Idioma PT indisponível.\n");
     printf(" \t Aviso: O idioma do sistema não está configurado como português.\n"
            " \t Por essa razão, a acentuação pode estar incorreta.\n\n");
-
+}
     printf("Exercício #4 | CAP #1:\n");
     printf("================================================================\n");
     printf("|  Cálculo de Percentual de Votos em uma Eleição Municipal     |\n");
