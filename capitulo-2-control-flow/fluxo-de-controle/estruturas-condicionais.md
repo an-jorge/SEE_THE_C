@@ -11,8 +11,6 @@ O que são "Estruturas Condicionais"
 O que são "Instruções Condicionais"
 {% endhint %}
 
-
-
 ## Introdução às Instruções if e else
 
 ***
@@ -208,12 +206,6 @@ int main()
     return 0;
 }
 
-/* - SAIDA - 
-
- Caso 2  
- Caso 3
- Padrão  
-*/
 ```
 {% endcode %}
 
@@ -222,7 +214,14 @@ int main()
 
 {% endhint %}
 
+{% code title="TERMINAL" overflow="wrap" %}
+```
 
+ Caso 2  
+ Caso 3
+ Padrão   
+```
+{% endcode %}
 
 ### Instrução `continue` e `break`
 
