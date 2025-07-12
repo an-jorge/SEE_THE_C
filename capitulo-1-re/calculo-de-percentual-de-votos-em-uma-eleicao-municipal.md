@@ -11,19 +11,18 @@ icon: '4'
 #include <locale.h> // Para setlocale()
 
 int main() {
-#ifdef _WIN32
-    system("cls"); // Para Windows
-#else
-    system("clear"); // Para Linux/macOS
-#endif
 
-    if (setlocale(LC_ALL, "pt_PT.utf8") == NULL)
-    {
-        printf("Localização pt_PT indisponivel\n");
-        printf(
-            "acentuação poderá não ser a correta significa que a forma como as palavras foram acentuadas na frase pode estar errada. "
-            "Isso pode acontecer devido à aplicação incorreta das regras de acentuação gráfica da língua portuguesa. \n");
-    }
+#ifdef _WIN32
+    system(cls); // Limpa o terminal no Windows
+#else
+    system("clear"); // Limpa o terminal no Linux e macOS
+    #endif
+
+if (setlocale(LC_ALL, "pt_PT.utf8") == NULL)
+{
+    printf(" \t Idioma PT indisponível.\n");
+    printf(" \t Aviso: O idioma do sistema não está configurado como português.\n"
+           " \t Por essa razão, a acentuação pode estar incorreta.\n\n");
 
     printf("Exercício #4 | CAP #1:\n");
     printf("================================================================\n");
