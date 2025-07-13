@@ -6,10 +6,12 @@
 **No final desta lição, você será capaz de responder ao seguinte**:\
 O que são "Estruturas Condicionais"
 
-* `if`, `else`, `switch`
+* `if`, `else`
 
 O que são "Instruções Condicionais"
 {% endhint %}
+
+
 
 ## Introdução às Instruções if e else
 
@@ -17,7 +19,7 @@ O que são "Instruções Condicionais"
 
 Na programação as instruções `if` e `else` são usadas para controlar o fluxo do programa com base em condições. Assim como na vida, as condições permitem que você execute diferentes blocos de código dependendo se uma condição é verdadeira ou falsa.
 
-#### **Sintaxe do `if else`**
+### **Sintaxe do `if else`**
 
 {% code overflow="wrap" %}
 ```c
@@ -29,24 +31,16 @@ if (condição) {
 ```
 {% endcode %}
 
-{% hint style="info" %}
-### Saiba mais
-
-`condição`: Uma expressão booleana que deve ser avaliada como verdadeira (não zero) ou falsa para determinar qual bloco de código será executado.
-
-`bloco de código`: Um conjunto de instruções que serão executadas se a condição for verdadeira (bloco `if`) ou falsa (bloco `else`).
-{% endhint %}
 
 
-
-{% code overflow="wrap" %}
+{% code title="main.c" overflow="wrap" %}
 ```c
 #include <stdio.h>
 
 int main() {
-    int numero = 10;
+    int number = 10;
 
-    if (numero > 0) {
+    if (number > 0) {
         printf("O número é positivo.\n");
     } else {
         printf("O número é negativo ou zero.\n");
@@ -57,11 +51,15 @@ int main() {
 ```
 {% endcode %}
 
-
+{% code title="TERMINAL" overflow="wrap" %}
+```
+>. O número é positivo.
+```
+{% endcode %}
 
 ***
 
-## Introdução à Instrução `else-if`&#x20;
+## Instrução `else-if`&#x20;
 
 A instrução `else if` é usada quando você precisa verificar **múltiplas condições** em um programa. Ela é uma extensão da estrutura `if-else` e permite adicionar várias condições intermediárias antes de chegar ao bloco `else`.
 
@@ -70,6 +68,14 @@ A instrução `else if` é usada quando você precisa verificar **múltiplas con
 {% hint style="info" %}
 ## Saiba mais
 
+`condição`: Uma expressão booleana que deve ser avaliada como verdadeira (não zero) ou falsa para determinar qual bloco de código será executado.
+
+
+
+`bloco de código`: Um conjunto de instruções que serão executadas se a condição for verdadeira (bloco `if`) ou falsa (bloco `else`).
+{% endhint %}
+
+{% hint style="info" %}
 O programa verifica as condições na ordem em que aparecem.
 
 Assim que uma condição for verdadeira 1, o bloco correspondente será executado e o restante será ignorado. O bloco `else` é opcional e será executado apenas se **nenhuma das condições anteriores for verdadeira**.
@@ -77,43 +83,50 @@ Assim que uma condição for verdadeira 1, o bloco correspondente será executad
 
 {% endhint %}
 
+### **Aqui está um exemplo prático**:
 
-
-**Aqui está um exemplo prático**:
-
-{% code overflow="wrap" %}
+{% code title="main.c" overflow="wrap" %}
 ```c
 #include <stdio.h>
 
 int main()
 {
-    int score = 10;
+    const int score = 10;
 
-    printf("Sua pontuacao %d", score);
+        printf("Sua pontuação %d \n", score);
 
-    if (score >= 90)
-    {
-        printf("Você tirou A.\n");
-    }
-    else if (score >= 80)
-    {
-        printf("Você tirou B.\n");
-    }
-    else if (score >= 70)
-    {
-        printf("Você tirou C.\n");
-    }
-    else if (score >= 60)
-    {
-        printf("Você tirou D.\n");
-    }
-    else
-    {
-        printf("Você foi reprovado.\n");
-    }
+        if (score >= 90)
+        {
+            printf("Você tirou A.\n");
+        }
+        else if (score >= 80)
+        {
+            printf("Você tirou B.\n");
+        }
+        else if (score >= 70)
+        {
+            printf("Você tirou C.\n");
+        }
+        else if (score >= 60)
+        {
+            printf("Você tirou D.\n");
+        }
+        else
+        {
+            printf("Você foi reprovado.\n");
+        }
 
-    return 0;
+        return 0;
+
 }
+```
+{% endcode %}
+
+{% code title="TERMINAL" overflow="wrap" %}
+```
+>. 
+Sua pontuação 10 
+Você foi reprovado.
 ```
 {% endcode %}
 
@@ -124,104 +137,6 @@ A instrução `else if` é uma ferramenta poderosa para lidar com múltiplas con
 
 
 ***
-
-## Instrução `switch`
-
-`switch` é usada para realizar uma seleção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if`.&#x20;
-
-**A estrutura básica do** `switch` **é a seguinte:**
-
-{% code overflow="wrap" %}
-```c
-
-#include <stdio.h>
-
-int main()
-{
-    int option = 1;
-
-    printf("Escolha uma opção:\n");
-    printf("1 - Iniciar\n");
-    printf("2 - Configurações\n");
-    printf("3 - Sair\n");
-
-    switch (option)
-    {
-    case 1:
-        printf("Iniciando...\n");
-        break;
-    case 2:
-        printf("Abrindo configurações...\n");
-        break;
-    case 3:
-        printf("Saindo...\n");
-        break;
-    default:
-        printf("Opção inválida!\n");
-    }
-
-    return 0;
-}
-
-```
-{% endcode %}
-
-
-
-{% hint style="danger" %}
-## **Atenção:**
-
-### <mark style="color:red;">Evitar "Fall-Through" Indesejado</mark>
-
-`break` impede que os próximos `case` sejam executados.
-
-Se esquecermos o `break`, os `case` seguintes serão executados **mesmo sem correspondência**, causando o que é chamado de efeito chamado **"fall-through"**.
-
-
-
-***
-
-
-
-{% code overflow="wrap" %}
-```c
-#include <stdio.h>
-
-int main()
-{
-    int num = 2;
-
-    switch (num)
-    {
-    case 1:
-        printf("Caso 1\n");
-    case 2:
-        printf("Caso 2\n");
-    case 3:
-        printf("Caso 3\n");
-    default:
-        printf("Padrão\n");
-    }
-
-    return 0;
-}
-
-```
-{% endcode %}
-
-* `break` impede que os próximos `case` sejam executados.
-
-
-{% endhint %}
-
-{% code title="TERMINAL" overflow="wrap" %}
-```
-
- Caso 2  
- Caso 3
- Padrão   
-```
-{% endcode %}
 
 
 
