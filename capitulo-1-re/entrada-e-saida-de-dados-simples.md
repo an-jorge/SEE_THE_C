@@ -7,29 +7,60 @@ icon: '3'
 {% code title="main.c" overflow="wrap" %}
 ```c
 #include <stdio.h>
+#include <locale.h>
 #include <stdlib.h>
+#include <unistd.h>
 
-int main()
-{
 
+
+int main() {
+
+    // Tenta usar ANSI escape codes (funciona em Unix, Linux, Mac, e terminais modernos no Windows)
+    if (isatty(fileno(stdout))) {
+        // ANSI: limpa tela e move cursor para o topo
+        printf("\033[2J\033[H");
+        fflush(stdout);
+    } else {
+        // Fallback para sistemas sem suporte ANSI
 #ifdef _WIN32
-    system(cls); // Limpa o terminal no Windows
+        system("cls");
 #else
-    system("clear"); // Limpa o terminal no Linux e macOS
-    #endif
+        system("clear");
+#endif
+    }
 
-if (setlocale(LC_ALL, "pt_PT.utf8") == NULL)
-{
-    printf(" \t Idioma PT indisponível.\n");
+    const char *locales[] = {
+        "pt_PT.utf8", "pt_PT.UTF-8",
+        "pt_BR.utf8", "pt_BR.UTF-8",
+        "pt_PT", "pt_BR",
+        "Portuguese",                      // Windows (genérico)
+        "Portuguese_Portugal.1252",       // Windows (Portugal)
+        "Portuguese_Brazil.1252",         // Windows (Brasil)
+        NULL
+    };
+
+    const char *locale = NULL;
+    for (int i = 0; locales[i]; i++) {
+        if (setlocale(LC_ALL, locales[i])) {
+            locale = locales[i];
+            break;
+        }
+    }
+
+    if (locale)
+        printf("\t Localidade definida: %s\n", locale);
+    else {
     printf(" \t Aviso: O idioma do sistema não está configurado como português. \n"
-           " \t Por essa razão, a acentuação pode estar incorreta.\n\n");
+           " \t Por essa razão, a acentuação poderá estar incorreta.\n\n");
 }
+
+    /*
+     * Resolvendo o Exercício
+     */
     printf("Exercício #3 | CAP #1: \n");
     printf("========================================\n");
     printf("|  Entrada e Saída de dados Simples     |\n");
-    printf("========================================\n")
-
-    // Resolvendo o Exercício
+    printf("========================================\n");
 
     printf("\n");
     int how_old;
@@ -39,7 +70,7 @@ if (setlocale(LC_ALL, "pt_PT.utf8") == NULL)
     scanf("%d", &how_old);
     printf("Informe a sua idade:\n");
     scanf("%f", &how_weight);
-    printf("Você tem %d anos e pesa %f.2 Kg\n", how_old, how_weight);
+    printf("Você tem %d anos e pesa %2.f Kg\n", how_old, how_weight);
 
     return 0;
 }
