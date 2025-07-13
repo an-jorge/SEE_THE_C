@@ -1,4 +1,4 @@
-# Instrução continue e break
+# Continue e Break
 
 {% hint style="info" %}
 #### **Saiba mais** <a href="#saiba-mais" id="saiba-mais"></a>
@@ -14,7 +14,7 @@ Diferenças entre as instruçóes `if` `else` e  `switch`e quando utilizar uma d
 
 ### `Continue` e `Break`
 
-Como esclarecido na [pagina anterior](./#desvios-e-saltos) `continue` e `break` são utilizados para alterar o fluxo de execução dentro de laços de repetição (`for`, `while`, `do-while`) e também no comando `switch-case` em C.
+Como esclarecido na [página anterior](./#desvios-e-saltos) `continue` e `break` são utilizados para alterar o fluxo de execução dentro de laços de repetição (`for`, `while`, `do-while`) e também no comando `switch-case` em C.
 
 * `break`**:**
   * Interrompe imediatamente o loop de repetição em que está inserido.
@@ -23,7 +23,7 @@ Como esclarecido na [pagina anterior](./#desvios-e-saltos) `continue` e `break` 
   * Interrompe a iteração actual do loop de repetição em que está inserido.
   * O programa pula para a avaliação da condição do loop e, se verdadeira, executa a próxima iteração.
 
-**Exemplo demonstrando o uso de** `break` **e** `continue`**:**
+### **O uso de** `break` **e** `continue`**:**
 
 {% code overflow="wrap" %}
 ```c
@@ -46,9 +46,25 @@ int main() {
 ```
 {% endcode %}
 
+{% hint style="info" %}
 
 
-### Quando usar `switch` ao invez de `if-else`?
+* Só será executado se:
+  * `i` **não for 5**
+  * `i` **não for par**
+* Ou seja, só imprime **números ímpares menores que 5**.
+{% endhint %}
+
+```
+>.
+ repetição ímpar número 1
+ repetição ímpar número 3
+
+```
+
+
+
+## Quando usar `switch` ao invez de `if-else`?
 
 **Use** `switch` **quando**:
 
@@ -96,5 +112,13 @@ return 0;
 }
 {% endhint %}
 
+{% code title="TERMINAL" overflow="wrap" %}
+```
+>.
+É uma vogal!
+```
+{% endcode %}
 
 
+
+***
