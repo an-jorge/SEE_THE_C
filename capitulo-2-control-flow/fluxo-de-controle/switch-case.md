@@ -1,8 +1,10 @@
-# Page
+# Switch case
 
 ## Instrução `switch`
 
-`switch` é usada para realizar uma seleção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if`.&#x20;
+`switch` é usada para realizar uma seleção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if` , além de deixar o código mais limpo e facil de ler.
+
+
 
 **A estrutura básica do** `switch` **é a seguinte:**
 
@@ -64,9 +66,9 @@ Se esquecermos o `break`, os `case` seguintes serão executados **mesmo sem corr
 
 int main()
 {
-    int num = 2;
+    int number = 2;
 
-    switch (num)
+    switch (number)
     {
     case 1:
         printf("Caso 1\n");
@@ -91,7 +93,7 @@ int main()
 
 {% code title="TERMINAL" overflow="wrap" %}
 ```
-
+>.
  Caso 2  
  Caso 3
  Padrão   

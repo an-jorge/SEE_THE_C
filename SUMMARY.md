@@ -50,7 +50,7 @@
 
 * [Fluxo de Controle](capitulo-2-control-flow/fluxo-de-controle/README.md)
   * [Estruturas condicionais](capitulo-2-control-flow/fluxo-de-controle/estruturas-condicionais.md)
-  * [Page](capitulo-2-control-flow/fluxo-de-controle/page.md)
+  * [Switch case](capitulo-2-control-flow/fluxo-de-controle/switch-case.md)
   * [Instrução continue e break](capitulo-2-control-flow/fluxo-de-controle/instrucao-continue-e-break.md)
   * [Entender loops](capitulo-2-control-flow/fluxo-de-controle/entender-loops.md)
 
