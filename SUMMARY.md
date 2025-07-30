@@ -50,7 +50,7 @@
 
 * [Fluxo de Controle](capitulo-2-control-flow/fluxo-de-controle/README.md)
   * [Estruturas condicionais](capitulo-2-control-flow/fluxo-de-controle/estruturas-condicionais.md)
-  * [Switch case](capitulo-2-control-flow/fluxo-de-controle/page.md)
+  * [Switch case](capitulo-2-control-flow/fluxo-de-controle/switch-case.md)
   * [Continue e Break](capitulo-2-control-flow/fluxo-de-controle/continue-e-break.md)
   * [Entender loops](capitulo-2-control-flow/fluxo-de-controle/entender-loops.md)
 
@@ -63,6 +63,8 @@
   * [Dias da Semana](capitulo-2-exercicios/dias-da-semana.md)
   * [Calculadora Simples](capitulo-2-exercicios/calculadora-simples.md)
   * [Conversor de Unidades](capitulo-2-exercicios/conversor-de-unidades.md)
+* [Capítulo 2: RE](capitulo-2-re/README.md)
+  * [Calculadora de Notas](capitulo-2-re/calculadora-de-notas.md)
 
 ## Capítulo 3: Functions
 
