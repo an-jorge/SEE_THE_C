@@ -65,6 +65,7 @@
   * [Conversor de Unidades](capitulo-2-exercicios/conversor-de-unidades.md)
 * [Capítulo 2: RE](capitulo-2-re/README.md)
   * [Calculadora de Notas](capitulo-2-re/calculadora-de-notas.md)
+  * [Verificação de Paridade de um Número](capitulo-2-re/verificacao-de-paridade-de-um-numero.md)
 
 ## Capítulo 3: Functions
 

@@ -50,3 +50,4 @@ icon: '1'
 
 ***
 
+<a href="../capitulo-2-re/verificacao-de-paridade-de-um-numero.md" class="button secondary">RE1</a>
