@@ -100,4 +100,4 @@ Digite a temperatura atual:
 ```
 {% endcode %}
 
-<a href="conversor-de-temperatura-inteligente.md" class="button secondary">E2</a>
+<a href="../capitulo-2-exercicios/conversor-de-temperatura-inteligente.md" class="button secondary">E2</a>

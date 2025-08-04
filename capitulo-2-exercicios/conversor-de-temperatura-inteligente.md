@@ -44,3 +44,7 @@ Está quente!
 
 * Peça para o usuário escolher se quer inserir a temperatura em **Celsius ou Fahrenheit**.
 * Converta a temperatura de Fahrenheit para Celsius, caso necessário.
+
+
+
+<a href="../capitulo-2-re/conversor-de-temperatura-inteligente.md" class="button secondary">RE2</a>
