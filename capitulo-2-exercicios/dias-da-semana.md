@@ -42,3 +42,7 @@ O dia correspondente é Quarta-feira.
 
 * Modifique o programa para informar se o dia é **útil** (segunda a sexta) ou **final de semana**.
 * Permita que o usuário insira o número novamente caso digite um valor inválido.
+
+
+
+<a href="../capitulo-2-re/dias-da-semana.md" class="button secondary">RE2</a>

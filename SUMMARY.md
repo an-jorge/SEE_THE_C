@@ -67,6 +67,7 @@
   * [Calculadora de Notas](capitulo-2-re/calculadora-de-notas.md)
   * [Verificação de Paridade de um Número](capitulo-2-re/verificacao-de-paridade-de-um-numero.md)
   * [Conversor de Temperatura Inteligente](capitulo-2-re/conversor-de-temperatura-inteligente.md)
+  * [Dias da Semana](capitulo-2-re/dias-da-semana.md)
 
 ## Capítulo 3: Functions
 
