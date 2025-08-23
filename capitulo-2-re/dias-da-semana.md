@@ -88,7 +88,15 @@ int main() {
 }
 ```
 
+{% code title="TERMINAL" overflow="wrap" %}
+```
 
+>.
+Digite o número da semana de (1 a 7): 3
+O dia correspondente é Quarta-feira
+
+```
+{% endcode %}
 
 <a href="../capitulo-2-exercicios/dias-da-semana.md" class="button secondary">E3</a>
 

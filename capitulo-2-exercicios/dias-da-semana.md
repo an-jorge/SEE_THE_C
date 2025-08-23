@@ -21,7 +21,7 @@ icon: '3'
 
 
 
-Exemplo de entrada e saida
+Exemplo de entrada e saída
 
 {% code overflow="wrap" %}
 ```
@@ -45,4 +45,4 @@ O dia correspondente é Quarta-feira.
 
 
 
-<a href="../capitulo-2-re/dias-da-semana.md" class="button secondary">RE2</a>
+<a href="../capitulo-2-re/dias-da-semana.md" class="button secondary">RE3</a>
