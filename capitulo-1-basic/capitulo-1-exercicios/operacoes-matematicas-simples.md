@@ -1,16 +1,5 @@
 ---
 icon: '0'
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Operações Matemáticas Simples
@@ -58,3 +47,4 @@ layout:
 
 
 
+<a href="../../capitulo-1-re/operacoes-matematicas-simples.md" class="button secondary">RE0</a>

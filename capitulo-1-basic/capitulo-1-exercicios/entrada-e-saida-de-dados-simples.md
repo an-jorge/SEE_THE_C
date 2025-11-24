@@ -1,16 +1,5 @@
 ---
 icon: '3'
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Entrada e Saída de dados Simples
@@ -54,3 +43,4 @@ layout:
 
 ***
 
+<a href="../../capitulo-1-re/calculo-de-percentual-de-votos-em-uma-eleicao-municipal.md" class="button secondary">RE4</a>

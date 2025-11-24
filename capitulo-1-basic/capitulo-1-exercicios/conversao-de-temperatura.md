@@ -1,16 +1,5 @@
 ---
 icon: '2'
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Conversão de Temperatura
@@ -62,3 +51,4 @@ layout:
 
 ***
 
+<a href="../../capitulo-1-re/conversao-de-temperatura.md" class="button secondary">RE2</a>

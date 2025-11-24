@@ -1,16 +1,5 @@
 ---
 icon: '6'
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Jogo de Adivinhação Simples
@@ -77,3 +66,4 @@ Parabéns! Ganhou.
 
 ***
 
+<a href="../../capitulo-1-re/jogo-de-adivinhacao-simples.md" class="button secondary">RE6</a>

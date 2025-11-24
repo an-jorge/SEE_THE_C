@@ -35,10 +35,24 @@
   * [Pesquisa de Elemento em um Array](capitulo-1-basic/capitulo-1-exercicios/pesquisa-de-elemento-em-um-array.md)
   * [Manipulação de Arrays - Inserindo e Exibindo Valores](capitulo-1-basic/capitulo-1-exercicios/manipulacao-de-arrays-inserindo-e-exibindo-valores.md)
 
+***
+
+* [Capítulo 1: RE](capitulo-1-re/README.md)
+  * [Operações Matemáticas Simples](capitulo-1-re/operacoes-matematicas-simples.md)
+  * [Cálculo de Média Aritmética](capitulo-1-re/calculo-de-media-aritmetica.md)
+  * [Conversão de Temperatura](capitulo-1-re/conversao-de-temperatura.md)
+  * [Entrada e Saída de dados Simples](capitulo-1-re/entrada-e-saida-de-dados-simples.md)
+  * [Cálculo de Percentual de Votos em uma Eleição Municipal](capitulo-1-re/calculo-de-percentual-de-votos-em-uma-eleicao-municipal.md)
+  * [Cálculo de Novo Salário com Reajuste](capitulo-1-re/calculo-de-novo-salario-com-reajuste.md)
+  * [Jogo de Adivinhação Simples](capitulo-1-re/jogo-de-adivinhacao-simples.md)
+
 ## Capítulo 2: Control Flow
 
-* [Estruturas condicionais](capitulo-2-control-flow/estruturas-condicionais/README.md)
-  * [Entender loops](capitulo-2-control-flow/estruturas-condicionais/entender-loops.md)
+* [Fluxo de Controle](capitulo-2-control-flow/fluxo-de-controle/README.md)
+  * [Estruturas condicionais](capitulo-2-control-flow/fluxo-de-controle/estruturas-condicionais.md)
+  * [Switch case](capitulo-2-control-flow/fluxo-de-controle/switch-case.md)
+  * [Continue e Break](capitulo-2-control-flow/fluxo-de-controle/continue-e-break.md)
+  * [Entender loops](capitulo-2-control-flow/fluxo-de-controle/entender-loops.md)
 
 ***
 
@@ -49,6 +63,11 @@
   * [Dias da Semana](capitulo-2-exercicios/dias-da-semana.md)
   * [Calculadora Simples](capitulo-2-exercicios/calculadora-simples.md)
   * [Conversor de Unidades](capitulo-2-exercicios/conversor-de-unidades.md)
+* [Capítulo 2: RE](capitulo-2-re/README.md)
+  * [Calculadora de Notas](capitulo-2-re/calculadora-de-notas.md)
+  * [Verificação de Paridade de um Número](capitulo-2-re/verificacao-de-paridade-de-um-numero.md)
+  * [Conversor de Temperatura Inteligente](capitulo-2-re/conversor-de-temperatura-inteligente.md)
+  * [Dias da Semana](capitulo-2-re/dias-da-semana.md)
 
 ## Capítulo 3: Functions
 

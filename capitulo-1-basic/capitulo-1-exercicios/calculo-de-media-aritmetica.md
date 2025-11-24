@@ -1,16 +1,5 @@
 ---
 icon: '1'
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Cálculo de Média Aritmética
@@ -54,3 +43,4 @@ layout:
 
 ***
 
+<a href="../../capitulo-1-re/calculo-de-media-aritmetica.md" class="button primary">RE1</a>

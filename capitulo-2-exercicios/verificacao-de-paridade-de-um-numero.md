@@ -1,16 +1,5 @@
 ---
 icon: '1'
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Verificação de Paridade de um Número
@@ -34,16 +23,13 @@ layout:
 **Entendimento do código:**
 
 * O programa define uma variável inteira `number` com o valor 13.
-* O operador de módulo (`%`) é utilizado para verificar o resto da divisão de `number` por 2. Se o resto for 0, o número é par; caso contrário, o número é ímpar.
+* O operador de módulo (`%`) é utilizado para verificar o resto da divisão de `number` por 2. Se o resto for 0 (zero), o número é par, caso contrário, o número é ímpar.
 * O programa exibe uma mensagem indicando se o número é "par" ou "ímpar".
 
 ### Tarefa:
 
-1. Copie e cole o código no seu ambiente de desenvolvimento C.
-2. Execute o programa e observe a saída para o número 13.
-3. Altere o valor da variável `number` para outros números inteiros e verifique
-4. se o programa classifica correctamente os números como pares ou ímpares.
-5. Altere do `if-else` para `while` ou `do-while`
+1. Altere o valor da variável `number` para outros números inteiros e verifique
+2. Altere do `if-else` para `while` ou `do-while`
 
 * **Perguntas para reflexão:**
   * Como o operador de módulo `%` funciona para verificar se um número é par ou ímpar?
@@ -64,3 +50,4 @@ layout:
 
 ***
 
+<a href="../capitulo-2-re/verificacao-de-paridade-de-um-numero.md" class="button secondary">RE1</a>

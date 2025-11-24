@@ -1,17 +1,6 @@
 ---
-icon: '1'
 hidden: true
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+icon: '1'
 ---
 
 # Pesquisa de Elemento em um Array
