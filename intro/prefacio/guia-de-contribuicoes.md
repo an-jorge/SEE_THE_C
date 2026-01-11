@@ -28,13 +28,13 @@ Este projecto completamente gratuito aceita contribuições via pull requests no
 
 ## Tipos de commit
 
-**Un-fixed** - Bug encontrado ou falha na execução de algo
+**Un-fixed** - Bug encontrado ou falha na execução de algo.
 
-**Fixed** - Bug resolvido
+**Fixed** - Bug resolvido.
 
-**New+title** - Você adicionou novos arquivos
+**New+title** - Você adicionou novos arquivos.
 
-**Add-style** - Você corrigiu erro ortográfico ou melhorou a experiência de leitura
+**Add-style** - Você corrigiu erro ortográfico ou melhorou a experiência de leitura.
 
-**Resolved+title** - Você resolveu um exercício ou outro problema
+**Resolved+title** - Você resolveu um exercício ou outro problema.
 
